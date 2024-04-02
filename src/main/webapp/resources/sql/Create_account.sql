@@ -1,6 +1,6 @@
 create user c##Going identified by c##Going1234567;
 
-grant connect, resource, dba to Going;
+grant connect, resource, dba to c##Going;
 
 commit;
 
