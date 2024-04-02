@@ -34,8 +34,8 @@
 	<bean id="dataSource" class="org.springframework.jdbc.datasource.DriverManagerDataSource">
 		<property name="driverClassName" value="oracle.jdbc.driver.OracleDriver"/>
 		<property name="url" value="jdbc:oracle:thin:@going_medium?TNS_ADMIN=/Users/lasbe/Wallet_going"/>
-		<property name="username" value="ADMIN"/>
-		<property name="password" value="Going1234567"/>
+		<property name="username" value="c##Going"/>
+		<property name="password" value="c##Going1234567"/>
 	</bean>
 	
 	<bean id="sqlSessionFactory" class="org.mybatis.spring.SqlSessionFactoryBean">
