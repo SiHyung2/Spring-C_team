@@ -1,0 +1,6 @@
+
+2024-04-02 오라클 12 이전의 DB에선 계정 앞에 c##을 붙이지 않아도 생성이 되어서 ADMIN으로
+계정이름이 설정되어있어서 계정이름을 수정하였음.
+dispatcher-servlet.xml 에 <property name="username" value="c##Going"/>
+		<property name="password" value="c##Going1234567"/>
+으로 변경하였음 'webapp>resources>sql>Create_account' 에 계정 생성 쿼리문을 추가하였음
